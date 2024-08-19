@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace HPlusSport.API.Models;
@@ -11,7 +12,8 @@ public class Product
     public decimal Price { get; set; }
     public bool IsAvailable { get; set; }
 
+    [Required]
     public int CategoryId { get; set; }
     [JsonIgnore]
-    public virtual Category Category { get; set; }
+    public virtual Category? Category { get; set; }
 }
