@@ -15,4 +15,19 @@ public class QueryParameters
             _size = Math.Min(_maxSize, value);
         }
     }
+
+    public string SortBy { get; set; } = "Id";
+    public string _sortOrder = "asc";
+
+    public string SortOrder
+    {
+        get { return _sortOrder; }
+        set
+        {
+            if (value == "asc" || value == "desc")
+            {
+                _sortOrder = value;
+            }
+        }
+    }
 }
