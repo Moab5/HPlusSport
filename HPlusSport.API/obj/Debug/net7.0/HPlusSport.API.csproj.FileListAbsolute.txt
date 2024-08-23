@@ -225,3 +225,7 @@
 /Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Asp.Versioning.Abstractions.dll
+/Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Asp.Versioning.Http.dll
+/Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Asp.Versioning.Mvc.dll
+/Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/bin/Debug/net7.0/Asp.Versioning.Mvc.ApiExplorer.dll

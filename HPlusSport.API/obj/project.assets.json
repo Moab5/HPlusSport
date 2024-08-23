@@ -2,6 +2,57 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Asp.Versioning.Abstractions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Asp.Versioning.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Abstractions.dll": {}
+        }
+      },
+      "Asp.Versioning.Http/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Asp.Versioning.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Http.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Asp.Versioning.Mvc/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Http": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Asp.Versioning.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Mvc.dll": {}
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Mvc": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.dll": {}
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3183,6 +3234,78 @@
     }
   },
   "libraries": {
+    "Asp.Versioning.Abstractions/7.0.0": {
+      "sha512": "yujGpbGBCViHvYiBJD0S5XFgOI+f5bGvi8tnfMJV6EC0b8SAqBn1YC+yCnJjQo3D2XP9TmSuKIJ7ofVy58GcuQ==",
+      "type": "package",
+      "path": "asp.versioning.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.abstractions.7.0.0.nupkg.sha512",
+        "asp.versioning.abstractions.nuspec",
+        "icon.png",
+        "lib/net7.0/Asp.Versioning.Abstractions.dll",
+        "lib/net7.0/Asp.Versioning.Abstractions.pdb",
+        "lib/net7.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.pdb",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.pdb",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.xml"
+      ]
+    },
+    "Asp.Versioning.Http/7.0.1": {
+      "sha512": "cvSrKDiszPbvSxEuC9SN9rwl1DOtXDU9TsSwNK3RzvyVhFcHdu4J0p8qaC8b8tuY/9ST4DsRN92L1HDUeTWFaQ==",
+      "type": "package",
+      "path": "asp.versioning.http/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.http.7.0.1.nupkg.sha512",
+        "asp.versioning.http.nuspec",
+        "icon.png",
+        "lib/net7.0/Asp.Versioning.Http.dll",
+        "lib/net7.0/Asp.Versioning.Http.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc/7.0.1": {
+      "sha512": "BaYDuPI2/AapkgpuLzu5wgmeGcbs4Xur7YB30GgmvCa5RyVuuqmYSH+nAcd3WohrP0gES+M7covn6TNHjanL7g==",
+      "type": "package",
+      "path": "asp.versioning.mvc/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.7.0.1.nupkg.sha512",
+        "asp.versioning.mvc.nuspec",
+        "icon.png",
+        "lib/net7.0/Asp.Versioning.Mvc.dll",
+        "lib/net7.0/Asp.Versioning.Mvc.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/7.0.0": {
+      "sha512": "eN3Htqa+CWtzTGuOQZsoMJtcTf85ng+5Fg1NJjrCcGfgTB2BA946b3F7eUuo0sPFAQNcKP1cO5VxcO9WiqbmCA==",
+      "type": "package",
+      "path": "asp.versioning.mvc.apiexplorer/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512",
+        "asp.versioning.mvc.apiexplorer.nuspec",
+        "icon.png",
+        "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+        "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.pdb",
+        "lib/net7.0/Asp.Versioning.Mvc.ApiExplorer.xml"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -10208,6 +10331,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Asp.Versioning.Mvc >= 7.0.1",
+      "Asp.Versioning.Mvc.ApiExplorer >= 7.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.14",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.0",
@@ -10253,6 +10378,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Asp.Versioning.Mvc": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "Asp.Versioning.Mvc.ApiExplorer": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.14, )"

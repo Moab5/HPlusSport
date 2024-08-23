@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jh9sd9lhObzQgF94HMIZmTav64+hcgFBiGaRPSDm2SPRADRCMnaDstV05EsR4yoyT8kkFSHbobXCeMVWkkq05Q==",
+  "dgSpecHash": "6E+jdN71tgXPiMhkg/RTp3I0rSI5/u/UKVOgfOtqy/wvmbhABEiBVKatyvfbDDwmLOgTBNuW0uH4F+nVWl3zzg==",
   "success": true,
   "projectFilePath": "/Users/moaba/RiderProjects/HPlusSport/HPlusSport.API/HPlusSport.API.csproj",
   "expectedPackageFiles": [
+    "/Users/moaba/.nuget/packages/asp.versioning.abstractions/7.0.0/asp.versioning.abstractions.7.0.0.nupkg.sha512",
+    "/Users/moaba/.nuget/packages/asp.versioning.http/7.0.1/asp.versioning.http.7.0.1.nupkg.sha512",
+    "/Users/moaba/.nuget/packages/asp.versioning.mvc/7.0.1/asp.versioning.mvc.7.0.1.nupkg.sha512",
+    "/Users/moaba/.nuget/packages/asp.versioning.mvc.apiexplorer/7.0.0/asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512",
     "/Users/moaba/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/moaba/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/moaba/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
