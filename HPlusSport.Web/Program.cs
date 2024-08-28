@@ -1,4 +1,13 @@
+using HPlusSport.Web;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using HPlusSport.Web.Data.HPlusSport;
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("WebContextConnection") ?? throw new InvalidOperationException("Connection string 'WebContextConnection' not found.");
+
+builder.Services.AddDbContext<WebContext>(options => options.UseSqlite(connectionString));
+
+builder.Services.AddDefaultIdentity<HPlusSportWebUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<WebContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
