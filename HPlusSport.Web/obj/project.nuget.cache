@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4TT60SkCVwjyiz0SCiuX5IrrN2GDORzoyOa2jTreDYNC7iAReH0/g188n/gcQZ7rhfIGS8h1oYpReKpgZ0Xb1g==",
+  "dgSpecHash": "xwt37xe7YjScGBCNPeqdHRv0pirHaQN/wDn6EePQY/2MausRdWW+VzrLnkmEq/oZ5WTYL7jjqaEO4SKxYZkk0Q==",
   "success": true,
   "projectFilePath": "/Users/moaba/RiderProjects/HPlusSport/HPlusSport.Web/HPlusSport.Web.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "/Users/moaba/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/moaba/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/moaba/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/moaba/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.0/microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "/Users/moaba/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.20/microsoft.aspnetcore.cryptography.internal.7.0.20.nupkg.sha512",
     "/Users/moaba/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.20/microsoft.aspnetcore.cryptography.keyderivation.7.0.20.nupkg.sha512",
     "/Users/moaba/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.20/microsoft.aspnetcore.identity.entityframeworkcore.7.0.20.nupkg.sha512",
